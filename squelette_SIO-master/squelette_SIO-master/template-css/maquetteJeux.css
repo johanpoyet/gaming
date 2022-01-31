@@ -1,0 +1,94 @@
+﻿/**********************************************************************/
+/* Définition du style du DIV d'identifiant "menu_haut" */
+#menu_haut_commentaires{
+	height: 40px;
+	/*width: 1020px;*/
+	font-weight: bolder;
+	color: darkblue;
+	text-align: center;
+}
+
+/* Spécialisation du style des éléments HTML du DIV d'identifiant "menu_haut" */
+#menu_haut_commentaires  a,
+#menu_haut_commentaires  a:visited,
+#menu_haut_commentaires  a:hover {
+	color: darkred;
+	text-decoration: none;
+	border: solid 1px darkgreen;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-bottom: 0.2em;
+	margin: 0.2em;
+	background-color: lightgrey;
+}
+#menu_haut_commentaires  a:hover {
+	color: white;
+	text-decoration: none;
+	background-color: darkgrey;
+}
+
+/**********************************************************************/
+/* Définition du style du DIV d'identifiant "contenu" */
+#contenu_jeux{
+	/*height: 100%;
+	width: 1020px;
+	background-color: aquamarine;*/
+}
+
+/**********************************************************************/
+/* Définition du style du DIV d'identifiant "menu_gauche" */
+#menu_gauche_commentaires{
+	float:left;
+	width: 100px;
+	text-indent: 0%;
+	/*padding:20px;*/
+}
+
+/**********************************************************************/
+/* Définition du style du DIV d'identifiant "Contenu" */
+#texte_jeux{
+	width:600px;
+	/*height: 400px;*/
+	float:right;
+	/*padding:20px;*/
+	text-indent: 30px; /* Les paragraphes commencent 30 pixels sur la droite */
+	text-align: justify; /* Ils sont justifiés */
+	font-size: 100%;
+	font-weight: bold;
+	color: darkred;
+	border-right: dotted 1px lightgrey; 
+}
+
+
+
+
+ 
+/**********************************************************************/
+/* styles pour le tableau de resultat    */
+#affiche_resultat caption{
+	caption-side:up; 
+	font-weight:bold; 
+	text-decoration:underline;
+}
+
+#affiche_resultat {
+	border:1px solid darkblue;
+}
+ 
+#affiche_resultat td{
+	border:1px solid black; 
+	background-color:silver;
+	text-align:center;
+}
+
+#affiche_resultat .commentaire {
+	border:1px solid darkblue; 
+	background-color:white;
+	width:400px;
+	text-align:left;
+}
+#affiche_resultat .photo {
+	border-style:none; 
+	background-color:white;
+	width:300px;
+}  
