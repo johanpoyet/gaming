@@ -9,3 +9,4 @@ Pour créer la BDD : (si vous n'avez pas déjà la base base-test-jeu-evolution)
 
 Vérifez et mettez à jour les fichiers de configuration BDD/configBdd.php avec les bonnes valeurs si besoin
 
+bonojur
